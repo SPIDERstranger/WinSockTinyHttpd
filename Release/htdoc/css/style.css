@@ -1,0 +1,18 @@
+
+html{
+    font-size: 75px;
+}
+body {
+    font-size: 20px;
+}
+.container{
+    width: 50%;
+    margin :0 auto;
+}
+input:focus {
+    outline: none;
+}
+.font-warnning{
+    color: red;
+    
+}

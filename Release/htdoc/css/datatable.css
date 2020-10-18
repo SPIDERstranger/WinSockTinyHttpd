@@ -1,0 +1,40 @@
+body{
+    background:#fdfcf8
+}
+.datatable{
+    margin-top: .2rem;
+    border-collapse: collapse;
+    border: 1px solid #aaa;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+table.datatable tr {
+    border: 1px solid #aaa
+}
+table.datatable th{
+    background-color: #3F3F3F;
+    color: white;
+    padding: .133333rem
+}
+table.datatable td{
+    padding: .04rem;
+    border: 1px solid #aaa
+}
+table.datatable tr:nth-child(odd)
+{
+    background-color: #f4f4f4
+}
+table.datatable td:last-child
+{
+    padding: 0;
+}
+table.datatable input{
+    padding: .04rem;
+    height: 100%;
+    width: 100%;
+    display: block;
+    background:none;
+    border:none;
+    cursor: pointer;
+}

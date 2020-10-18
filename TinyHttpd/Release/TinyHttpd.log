@@ -1,0 +1,12 @@
+﻿  pch.cpp
+  TinyHttpd.cpp
+d:\my office\c++\tinyhttpd\tinyhttpd\tinyhttpd.cpp(97): warning C4018: “<”: 有符号/无符号不匹配
+d:\my office\c++\tinyhttpd\tinyhttpd\tinyhttpd.cpp(98): warning C4018: “<”: 有符号/无符号不匹配
+d:\my office\c++\tinyhttpd\tinyhttpd\tinyhttpd.cpp(101): warning C4018: “<”: 有符号/无符号不匹配
+d:\my office\c++\tinyhttpd\tinyhttpd\tinyhttpd.cpp(114): warning C4018: “<”: 有符号/无符号不匹配
+d:\my office\c++\tinyhttpd\tinyhttpd\tinyhttpd.cpp(234): warning C4018: “<”: 有符号/无符号不匹配
+d:\my office\c++\tinyhttpd\tinyhttpd\tinyhttpd.cpp(235): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码
+  All 712 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  TinyHttpd.vcxproj -> D:\my office\C++\TinyHttpd\Release\TinyHttpd.exe

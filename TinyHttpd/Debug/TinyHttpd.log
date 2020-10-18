@@ -1,0 +1,8 @@
+﻿  TinyHttpd.cpp
+d:\my office\c++\tinyhttpd\tinyhttpd\tinyhttpd.cpp(97): warning C4018: “<”: 有符号/无符号不匹配
+d:\my office\c++\tinyhttpd\tinyhttpd\tinyhttpd.cpp(98): warning C4018: “<”: 有符号/无符号不匹配
+d:\my office\c++\tinyhttpd\tinyhttpd\tinyhttpd.cpp(101): warning C4018: “<”: 有符号/无符号不匹配
+d:\my office\c++\tinyhttpd\tinyhttpd\tinyhttpd.cpp(114): warning C4018: “<”: 有符号/无符号不匹配
+d:\my office\c++\tinyhttpd\tinyhttpd\tinyhttpd.cpp(234): warning C4018: “<”: 有符号/无符号不匹配
+d:\my office\c++\tinyhttpd\tinyhttpd\tinyhttpd.cpp(235): warning C4018: “<”: 有符号/无符号不匹配
+  TinyHttpd.vcxproj -> D:\my office\C++\TinyHttpd\Debug\TinyHttpd.exe

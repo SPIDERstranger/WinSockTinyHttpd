@@ -1,0 +1,204 @@
+body {
+    background: #2b3137
+}
+
+.container {
+    position: relative;
+    max-width: 5.6rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 45px 20px 30px;
+    background: #fff;
+    border-radius: .053333rem;
+    -webkit-border-radius: .053333rem;
+    -moz-border-radius: .053333rem;
+    -ms-border-radius: .053333rem;
+    -o-border-radius: .053333rem;
+}
+
+.container>.logo-header {
+    width: fit-content;
+    color: #2b3137;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0 auto;
+    margin-bottom: .3rem;
+    text-align: center;
+    border-bottom: solid 1px;
+    cursor: default;
+}
+
+.container>.input-content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container>.input-content>.input-group {
+    position: relative;
+}
+
+.container>.input-content>.input-group>.input-area {
+    z-index: 2;
+    position: relative;
+    height: 48px;
+    width: 100%;
+    border: 0px;
+    border-bottom: 1px solid #777;
+    margin-bottom: 15px;
+    background: none;
+    padding-top: 22px;
+    font-size: 20px;
+    box-sizing: border-box;
+    outline: none;
+    display: inline-block;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+
+}
+
+.container>.input-content>.input-group>.input-label {
+    color: #2b3137;
+    z-index: 1;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    font-size: 20px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+
+}
+
+.container>.input-content>.input-group>.input-area:focus {
+    border-width: 3px;
+}
+
+.container>.input-content>.input-group>.input-area:focus+.input-label,
+.container>.input-content>.input-group>.input-area:valid+.input-label {
+    font-size: 12px;
+    transform: translateY(-25px);
+    -webkit-transform: translateY(-25px);
+    -moz-transform: translateY(-25px);
+    -ms-transform: translateY(-25px);
+    -o-transform: translateY(-25px);
+}
+
+.container>.input-content>.bottom-option {
+    margin: 20px 0 0;
+    padding-bottom: 15px;
+    width: 100%;
+    height: 24px;
+    font-size: 20px
+}
+
+.container>.input-content>.bottom-option>.option-left {
+    float: left;
+}
+
+.container>.input-content>.bottom-option>.option-right {
+    float: right;
+}
+
+.container>.input-content>.bottom-option a,
+.container>.input-content>.bottom-option a:visited,
+.container>.input-content>.bottom-option a:hover {
+    text-decoration: none;
+    color: #0366d6;
+}
+
+.container>.input-content>.bottom-option a:hover {
+    border-bottom: 1px solid #0366d6;
+}
+
+.container>.input-content>.input-submit-btn {
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    margin: 15px 0 10px;
+    padding: 15px;
+    background-color: #2ebc4f;
+    color: #ffffff;
+    font-weight: bold;
+    border: solid 1px #2ebc4f;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.container>.input-content>.input-submit-btn:hover {
+    background-color: #28a745;
+    cursor: pointer;
+}
+
+.container>.input-content>.container-sign {
+    font-size: 18px;
+    color: #777;
+    text-align: center;
+    padding: 10px 0 0 0;
+    cursor: default;
+}
+
+.userInfo {
+    margin: 0 auto;
+}
+
+.userInfo table {
+    width: 100%;
+}
+
+.userInfo td {
+    padding: 10px;
+}
+.userInfo .userInfo-attribute{
+    color: #777;
+    text-align: right;
+    width: 1.2rem
+}
+
+.userInfo .userInfo-value:hover {
+    text-decoration: underline;
+}
+
+
+.input_checkbox{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: fit-content;
+}
+.input_checkbox>input[type='checkbox']{
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    -webkit-appearance:none;
+    border: 2px solid #c9c9c9;
+    border-radius: 2px;
+    outline: none;
+}
+.input_checkbox>input[type='checkbox']:checked::after{
+    content: ' ';
+    box-sizing: border-box;
+    position: absolute;
+    left:4px;
+    height: 12px;
+    width: 16px;
+    border-bottom: 3px solid #000;
+    border-left: 3px solid #000;
+    transform: rotate(-50deg);
+    top: 10px;
+    -webkit-transform: rotate(-50deg);
+    -moz-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    -o-transform: rotate(-50deg);
+}
+.input_checkbox>.checkbox-label{
+    margin:5px;
+    font-size: 20px;
+}
+.warning-btn{
+    background-color: #c00000 !important;
+    border-color: #c00000 !important;
+}
